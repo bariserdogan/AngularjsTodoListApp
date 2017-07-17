@@ -1,0 +1,22 @@
+body{
+	font-family: arial;
+}
+.container{
+	background-color:#F5F5DC;
+	padding:2em;
+	margin-top: 1em;
+}
+.container ul{
+	list-style-type: none;
+	padding-left: 0
+}
+.checkbox{font-size:20px;}
+h3{text-decoration: underline;}
+input[type=checkbox]{
+	width:18px;
+	height: 20px;
+}
+.form-control{border-radius: 0;height: 3em}
+.done{
+	text-decoration: line-through;
+}
