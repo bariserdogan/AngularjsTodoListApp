@@ -14,8 +14,7 @@
 		<div class="row">
 			<div class="col-md-6 col-md-offset-3" data-ng-controller="todoItems">
 				<h3>{{header}} <span>({{getTotaltask()}} adet göreviniz var)</span></h3>
-				<ul>
-					<li ng-repeat="task in tasks">
+				<ul><li ng-repeat="task in tasks">
 						<div class="checkbox">
 							<label>
 								<input type="checkbox" ng-model="task.isDone">
@@ -29,7 +28,7 @@
 					<div class="form-group">
 						<input type="text" class="form-control" ng-model="task" class="form-control" required placeholder="Yeni Görev Ekle...">
 					</div>
-					<button type="submit" ng-disabled="frm.$invalid" class="btn btn-primary">Görev Ekle</button>
+					<button type="submit" ng-disabled="frm.$invalid" class="btn btn-primary">Ekle</button>
 				</form>
 			</div>
 		</div>
